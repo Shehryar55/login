@@ -1,0 +1,122 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Login Form</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+	body{
+		margin: 0;
+		padding: 0;
+		background-image: url('2.jpg');
+		background-size: cover;
+		font-family: poppins;
+	
+
+	}
+	.wraper{
+		width: 400px;
+		height: 420px;
+		color: white;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		padding: 60px 30px;
+		transform: translate(-110%, -40%);
+		box-sizing: border-box;
+		box-shadow: 8px 8px 70px #000;
+
+	}
+	h1{
+		margin: 0;
+		padding: 0;
+		font-weight: bold;
+		font-size: 22px;
+		font-family: Courgette;
+		margin-bottom: 8%;
+		text-align: center;
+
+
+	}
+	.wraper input{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.wraper input[type=text],.wraper input[type=password]{
+		border: none;
+		outline: none;
+		border-bottom: 1px solid #ddd;
+		background: transparent;
+		height: 30px;
+		font-size: 16px;
+		opacity: 1;
+		color: #ccc;
+	}
+	.wraper input[type=submit]{
+		border: none;
+		outline: none;
+		height: 40px;
+		background: black;
+		color: #fff;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.wraper input[type=submit]:hover{
+		cursor: pointer;
+		background-color: white;
+    
+    color: black;
+    transition: 0.8s ease;
+     box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+
+	}
+	.wraper a{
+		font-size: 14px;
+		text-decoration: none;
+		color: #fff;
+		opacity: 0.8;
+	}
+.wraper a:hover{
+	color: #fff;
+	opacity: 1;
+}
+.bottom-text{
+	color: #fff;
+
+}
+.bottom-text input{
+	width: 10%;
+	float: left;
+}
+.bottom-text a{
+	float: right;
+}
+
+
+	</style>
+
+</head>
+<body>
+	<div class="wraper">
+		<h1>Sign In</h1>
+		<form action="">
+			<input type="text" name="" placeholder="Username">
+			<input type="password" placeholder="Password">
+			<input type="submit" value="LOGIN" >
+        </form>
+        <div class="bottom-text">
+        <input type="checkbox" name="remember" checked="checked"><font color="black">Remember me</font>
+        <a href="#">Forget Password ?</a>	
+        </div>
+      
+    </div>
+
+
+	
+	
+</body>
+</html>
